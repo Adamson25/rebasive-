@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+body {
+    display: grid; 
+    place-items: center; 
+    
+}
+
+
+body {
+    display: grid; 
+    place-items: center; 
+    
+}
+
+
+        
+        .nav{
+            max-width: 1440px;
+            margin: auto;
+            padding: 40px 120px;
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo{
+            font-weight: 700;
+            font-size: 50px;
+        }
+        .navbutton{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 44px;
+            align-items: center;
+        }
+        .join{
+            color: green;
+            font-size: 16px;
+            padding: 13px 55px;
+            text-decoration: none;
+        }
+        .waitlist{
+            color: black;
+            font-size: 16px;
+            padding: 13px 55px;
+            text-decoration: none;
+            border: 1px solid green;
+        }
+        .waitlist:hover{
+            background-color: #00C996;
+        }
+        .section-1{
+            display: grid;
+            gap:48px;
+            max-width: 1440px;
+            margin: auto;
+            padding: 0 120px;
+        }
+        .hero{
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .text-side{
+            max-width: 768px;
+            display: grid;
+            gap:112px;
+            justify-content: start;
+        }
+        .hero-text{
+            font-size: 85px;
+            font-weight: 700;
+            
+        }
+        .green{
+            color: #00C996;
+        }
+
+        .card img{
+            height: 520px;
+            width: 363px;
+          
+        }
+        .hero-form{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .form-name{
+            padding: 18px 33px;
+            border: 1px solid black;
+            width: 228px;
+            outline: none;
+            color: #000;
+        }
+        .form-email{
+            padding: 18px 33px;
+            border: 1px solid black;
+            width: 228x;
+            outline: none;
+            color: #000;
+        }
+        .button{
+            padding: 14px;
+            color: white;
+            background-color:#00C996;
+            border: none;
+            transition: 0.5s;
+        }
+
+        .button:hover{
+            background-color: rgb(0, 0, 0);
+        }
+
+        .sponsor{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content: center;
+            align-items: center;
+            gap:35px
+        }
+        .brand{
+           width: 150px;
+           height: 60px;
+           /* background-color: #eee;  */
+        }
+
+        .burj{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content: space-around;
+            align-items: start;
+            padding-top: 30px;
+            padding-left: 70px;
+
+
+        }
+
+        .border{
+
+            align-items: center;
+            
+            justify-content: center;
+            padding-top: 50px;
+            margin-left: 70px;
+            padding-left: 40px;
+            border: 1px solid black;
+            width: 1408px;
+            height: 717px;
+        }
+
+        .border2{
+            margin-top: 150px;
+        }
+
+        .acc{
+            float: right;
+            margin-right: 90px; 
+            margin-top: -650px;
+            border: 1px solid  rgb(33, 115, 88);
+           
+
+        }
+        .foot{
+            background-attachment: scroll;
+           
+         
+          
+        }
+        .part{
+            display: grid;
+            grid-template-columns: auto;
+            margin-left: 30px;
+            margin-top: 20px;
+            font-size: 75px;
+            font-weight: 400;
+            line-height: 80px;
+            padding-top: 30px;
+            color: #ffffff;
+           
+        }
+
+        .join2{
+            border: 3px solid black;
+            color: #ffffff;
+            margin-left: 30px;
+            width: 100px;
+            padding: 13px 55px 13px 55px;
+           
+        }
+
+        .join2:hover{
+            background-color: #00C996;
+        }
+        .all{
+            display: grid;
+            grid-template-columns: auto auto;
+            color: #ffffff;
+            font-size: 40px;
+            justify-content: space-between;
+            padding-top: 80px;
+            font-weight: 400;
+            padding-left: 20px;
+            
+
+
+        }
+        .at{
+            font-size: 15px;
+            padding-top:15px ;
+            font-weight: 40;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .address{
+            display: grid;
+            grid-template-columns: auto auto;
+            color: white;
+            font-size: 25px;
+            width: 273.05px;
+            height: 113px;
+            margin-left: 70px;
+            padding-top: 80px;
+            padding-right: 100px;
+
+        }
+        .inner{
+            font-size: 20px;
+            font-weight: 200;
+            font-family: Arial, Helvetica, sans-serif; 
+        }
+        .support{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: auto auto;
+            padding-left: 300px;
+            margin-right: 150px;
+            margin-top: -120px;
+            color: white;
+            font-size: 25px;
+
+
+        }
+        .social{
+          
+            padding-left: 800px;
+         
+            margin-top: -140px;
+
+           
+            color: white;
+            font-size: 25px;
+            
+            
+        }
+       
+        .footer2{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            
+        }
+        .enter{
+            color: white;
+            
+            padding-left: 20px;
+            margin-left: 50px;
+            justify-content: center;
+            margin-top: -120px;
+            font-size: 25px;
+            width: 600px;
+            height: 70px;
+            border: 2px solid #ffffff;
+            border-radius: 200px;
+
+  
+        }
+        .type{
+            background-color: #000;
+            color: white;
+            padding: 7px;
+            margin-top: 20px;
+            font-size: 15px;
+            border: 0px;
+        }
+
+        .join3{
+            margin-left: 380px;
+            margin-top: -40px;
+            width: 150px;
+            text-align: center;
+            background-color: gray;
+            color:rgb(0, 0, 0);
+            padding: 10px 20px;
+            border: 3px solid #00C996;
+            border-radius: 200px;
+            font-size: 20px;
+
+        }
+      
+      
+        
+
+
+
+
+        
+
+    </style>
+<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="./images/66552b13d040efd5ec7e627e73edee66.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=0.75">
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <nav class="nav">
+        <div class="logo">
+            <img src="./images/Group 33968.png" alt="">
+        </div>
+        <div class="navbutton">
+            <a href="#" class="join">
+                Join Our Team
+            </a>
+            <a href="#" class="waitlist">
+                Join waitlist
+            </a>
+        </div>
+    </nav>
+    <div class="section-1">
+        <div class="hero">
+            <div class="text-side">
+                <div class="hero-text">
+                    One app,<br/> a <span class="green"> multi-currency wallet</span> and one card infinite possibilities... 
+                </div>
+                <form class="hero-form">
+                    <input type="text" placeholder="Full Name" class="form-name" />
+                    <input type="email" placeholder="Enter Email" class="form-name"/>
+                    <button class="button">join waitlist</button>
+                </form>
+            </div>
+            <div class="card"><img src="./images/Group 33994.png" alt="card"></div>
+        </div>
+        <div class="sponsor">
+            <div class="brand"><img src="./images/Group 2053.png" alt=""></div>
+            <div class="brand"><img src="./images/Group 652.png" alt=""></div>
+            <div class="brand"><img src="./images/Group 652.png" alt=""></div>
+            <div class="brand"><img src="./images/Group 631.png" alt=""></div>
+        </div>
+    </div><br><br>
+
+    <div class="burj">
+        <img src="./images/Rectangle 2923.png" height="767px" width="682px">
+        <div class="burj-grid"><img src="./images/Rectangle 2926.png"  height="504px" width="667px">
+            <p class="text3" style="font-size: 36px; line-height: 63px; color: #2C2C2CCC;">Manage,move and invest your money<br>across continents,anytime,anywhere<br>and to almost everywhere </p>
+        </div>
+    </div><br><br>
+
+    
+    <div class="border">
+        <div style="font-size: 50px; font-family: 'Times New Roman', Times, serif; font-weight: 900;">How It Works
+        <p style="font-size: 30px; line-height: 48px; font-weight: 100;">the next generation of money apps</p><br></div>
+        <div class="border2" style="font-size: 50px; font-weight: 900; ">Spend money like a<br>Locally globally with<br>real FX rates
+        <p style="font-size: 30px; font-weight: 100;">send and recieve instant and secure borderless<br>payments from your fingertips,no extra cost</p> </div>
+
+        
+    <div class="acc">
+        <img src="./images/Homepage (1).png"style="width: 408px; height: 605px;">
+    </div>      
+ </div><br><br><br><br><br><br>
+
+
+ <footer  class="foot" style="background-image: url(./images/Rectangle\ 2925.png);height: 472px;; padding-left: 20px;">
+    <div class="part"><b>Want to be a<br>part of building<br><span class="green">Rebasive?</span></div><br><br>
+    <div class="join2"><a href="#" style="text-decoration: none; color: #ffffff;">Join our team</a></div>
+ </footer>
+
+
+ <div class="footer2" style="background-color: black;height: 395px;max-width: none; padding-left: 20px;">
+    <div class="all" style="color: white;"><b>All rights reserved <br>©Rebasive Technologies
+    <p class="at">At Rebasive, we are offering you a seamless<br> banking experience that can be done anywhere,<br> anytime. Ready to bank with us? Don't miss out<br> on all the exciting offers</p></div>
+
+        <div class="address">
+            <strong>Address</strong><br>
+            <p class="inner">1151 Walker Road STE 100 Dover,
+            DE 19904 Delaware United States..</p>
+        </div>
+    
+        <div class="support">
+        <strong>Support</strong><br>
+            <p class="inner">Contact Us<br><br>Help Desk</p>
+        </div>
+    
+        <div class="social">
+            <strong>Social Networks</strong><br>
+            <p class="inner">Facebook<br><br>Instagram<br><br>WhatsApp<br><br>Twitter(X)<br><br>YouTube</p>
+        </div>
+  
+    
+
+    <div class="enter">
+        <form>
+            <input class="type" type="text" placeholder="Enter email" id="fname" name="fname">
+        </form>
+        <div class="join3">Join Waitlist</div>
+        
+    </div>
+ </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
